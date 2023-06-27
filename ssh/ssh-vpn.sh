@@ -321,7 +321,7 @@ wget -O restore "https://raw.githubusercontent.com/unli150/v1/main/backup/restor
 wget -O jam "https://raw.githubusercontent.com/unli150/v1/main/jam.sh"
 wget -O up "https://raw.githubusercontent.com/unli150/v1/main/up.sh"
 # Update Menu 
-wget -O updatemenu "https://raw.githubusercontent.com/unli150/v1/main/menu/updatemenu.sh"
+wget -O update "https://raw.githubusercontent.com/unli150/v1/main/update.sh"
 chmod +x menu
 chmod +x menu-trial
 chmod +x menu-vmess
@@ -359,7 +359,7 @@ chmod +x bw
 
 chmod +x port-ssl
 chmod +x port-ovpn
-
+chmod +x update
 chmod +x xp
 chmod +x acs-set
 chmod +x sshws
